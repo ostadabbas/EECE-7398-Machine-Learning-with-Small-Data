@@ -24,10 +24,21 @@ The materials include pre-prepared slides (uploaded directly as `.pdf`) and hand
 ## Contents
 
 - `Slides/`: Uploaded PDF slides covering session topics
-- `cifar10_classification_assignment_corrected.ipynb`: CIFAR-10 classification assignment with W&B monitoring
-- `cifar10_training_inference_part3.ipynb`: Notebook for training/inference on the Discovery Cluster
-- `wandb_monitoring_script.py`: Script for setting up W&B monitoring
-- `conda_environment_setup_part1.ipynb`: Notebook for setting up the Conda environment
+- `Exercises/`: Interactive notebooks and scripts for hands-on learning
+  - **Environment Setup**:
+    - `interactive_local_setup.ipynb`: Platform-aware setup guide for local development
+    - `conda_environment_setup_part1.ipynb`: Setup guide for Discovery Cluster
+  - **PyTorch and GPU Training**:
+    - `interactive_pytorch_gpu.ipynb`: Interactive GPU training tutorial
+    - `pytorch_gpu_training_part2.ipynb`: Advanced GPU training on Discovery
+  - **CIFAR-10 Tutorials**:
+    - `interactive_cifar10.ipynb`: Comprehensive interactive CIFAR-10 tutorial
+    - `cifar10_classification_assignment.ipynb`: Original CIFAR-10 assignment
+    - `cifar10_training_inference.py`: Training script
+  - **W&B Integration**:
+    - `interactive_wandb_tutorial.ipynb`: Interactive W&B tutorial
+    - `wandb_monitoring_part3.ipynb`: W&B setup on Discovery
+    - `wandb_monitoring_script.py`: W&B monitoring script
 - `README.md`: This readme file
 
 ---
@@ -42,37 +53,59 @@ Before using the Discovery Cluster for this course, students must have:
 
 ---
 
-## Exercises Overview
+## Interactive Notebooks Overview
 
-1. **CIFAR-10 Classification and W&B Monitoring** (`cifar10_classification_assignment_corrected.ipynb`)
-   - Train and track a custom CNN on the CIFAR-10 dataset.
-   - Utilize Weights & Biases (W&B) to monitor training performance.
-   
-2. **Training and Inference on GPUs** (`cifar10_training_inference_part3.ipynb`)
-   - Train a simple classifier using the CIFAR-10 dataset on the Discovery Cluster GPUs.
-   - Run inference on pre-trained models.
-   
-3. **W&B Monitoring Setup** (`wandb_monitoring_script.py`)
-   - A Python script to set up W&B for experiment tracking without Jupyter Notebooks.
-   
-4. **Setting up Conda Environment** (`conda_environment_setup_part1.ipynb`)
-   - Step-by-step guide to creating a Conda environment with the required dependencies for GPU-accelerated PyTorch on the Discovery Cluster.
+The repository now includes a set of interactive Jupyter notebooks designed for both local development and cluster usage:
+
+1. **Local Environment Setup** (`interactive_local_setup.ipynb`)
+   - Automatic OS detection (Windows, MacOS, Linux)
+   - Platform-specific installation instructions
+   - Interactive environment verification
+   - GPU detection and setup
+
+2. **PyTorch GPU Tutorial** (`interactive_pytorch_gpu.ipynb`)
+   - GPU operations and memory management
+   - Performance benchmarking
+   - Multi-GPU training
+   - Best practices for GPU utilization
+
+3. **Interactive CIFAR-10** (`interactive_cifar10.ipynb`)
+   - End-to-end training pipeline
+   - Real-time visualization
+   - Model architecture exploration
+   - Performance monitoring with W&B
+
+4. **W&B Integration** (`interactive_wandb_tutorial.ipynb`)
+   - Experiment tracking setup
+   - Custom metrics and logging
+   - Hyperparameter optimization
+   - Interactive visualizations
+
+These notebooks feature:
+- Real-time feedback and progress monitoring
+- Interactive visualizations
+- Platform-specific optimizations
+- Comprehensive error handling
+- Integration with W&B for experiment tracking
 
 ---
 
 ## How to Use
 
 1. Clone the repository:
-
-    ```
+    ```bash
     git clone https://github.com/your-repo/EECE7398-ML-Small-Data-Fall2024.git
     ```
 
-2. Review the provided materials:
-    - Use the uploaded slides in `Slides/` to follow along with the course sessions.
-    - Work through the exercises in the provided Jupyter notebooks.
+2. Choose your development environment:   
+   - For local development: Start with `interactive_local_setup.ipynb`
+   - For Discovery Cluster: Follow `conda_environment_setup_part1.ipynb`
 
-3. Access the cluster and follow the steps outlined in the slides to set up your environment for machine learning experimentation.
+3. Follow the interactive tutorials:
+   - Complete the environment setup
+   - Work through the PyTorch GPU tutorial
+   - Experiment with CIFAR-10 classification
+   - Set up experiment tracking with W&B
 
 ---
 
