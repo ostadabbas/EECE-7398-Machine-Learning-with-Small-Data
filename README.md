@@ -1,4 +1,4 @@
-# EECE 7398: Machine Learning with Small Data - Fall 2024
+# EECE 7398: Machine Learning with Small Data - Fall 2025
 
 ## Leveraging the Explorer Cluster for Advanced ML Research
 
