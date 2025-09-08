@@ -1,6 +1,6 @@
 # EECE 7398: Machine Learning with Small Data - Fall 2024
 
-## Leveraging the Discovery Cluster for Advanced ML Research
+## Leveraging the Explorer Cluster for Advanced ML Research
 
 ### Instructor: Prof. Sarah Ostadabbas
 #### Northeastern University, Department of Electrical and Computer Engineering
@@ -9,11 +9,11 @@
 
 ## Overview
 
-This repository contains the materials for the **EECE 7398: Machine Learning with Small Data** course. The course emphasizes using Northeastern's Discovery Cluster for advanced machine learning experiments, particularly in small data scenarios.
+This repository contains the materials for the **EECE 7398: Machine Learning with Small Data** course. The course emphasizes using Northeastern's Explorer Cluster for advanced machine learning experiments, particularly in small data scenarios.
 
-The materials include pre-prepared slides (uploaded directly as `.pdf`) and hands-on exercises to guide students through accessing, setting up, and utilizing the Discovery Cluster for machine learning research. Topics covered:
+The materials include pre-prepared slides (uploaded directly as `.pdf`) and hands-on exercises to guide students through accessing, setting up, and utilizing the Explorer Cluster for machine learning research. Topics covered:
 
-- Introduction to the Discovery Cluster
+- Introduction to the Explorer Cluster
 - Cluster access and environment configuration
 - PyTorch setup and GPU utilization
 - Monitoring experiments with Weights & Biases
@@ -27,17 +27,17 @@ The materials include pre-prepared slides (uploaded directly as `.pdf`) and hand
 - `Exercises/`: Interactive notebooks and scripts for hands-on learning
   - **Environment Setup**:
     - `interactive_local_setup.ipynb`: Platform-aware setup guide for local development
-    - `conda_environment_setup_part1.ipynb`: Setup guide for Discovery Cluster
+    - `conda_environment_setup_part1.ipynb`: Setup guide for Explorer Cluster
   - **PyTorch and GPU Training**:
     - `interactive_pytorch_gpu.ipynb`: Interactive GPU training tutorial
-    - `pytorch_gpu_training_part2.ipynb`: Advanced GPU training on Discovery
+    - `pytorch_gpu_training_part2.ipynb`: Advanced GPU training on Explorer
   - **CIFAR-10 Tutorials**:
     - `interactive_cifar10.ipynb`: Comprehensive interactive CIFAR-10 tutorial
     - `cifar10_classification_assignment.ipynb`: Original CIFAR-10 assignment
     - `cifar10_training_inference.py`: Training script
   - **W&B Integration**:
     - `interactive_wandb_tutorial.ipynb`: Interactive W&B tutorial
-    - `wandb_monitoring_part3.ipynb`: W&B setup on Discovery
+    - `wandb_monitoring_part3.ipynb`: W&B setup on Explorer
     - `wandb_monitoring_script.py`: W&B monitoring script
 - `README.md`: This readme file
 
@@ -45,9 +45,9 @@ The materials include pre-prepared slides (uploaded directly as `.pdf`) and hand
 
 ## Prerequisites
 
-Before using the Discovery Cluster for this course, students must have:
+Before using the Explorer Cluster for this course, students must have:
 
-1. **Access to the Discovery Cluster**: [Request access through ServiceNow](https://rc.northeastern.edu/getting-started/)
+1. **Access to the Explorer Cluster**: [Request access through ServiceNow](https://rc.northeastern.edu/getting-started/)
 2. Basic knowledge of **Python** and **machine learning**
 3. Familiarity with **Conda** for environment management
 
@@ -99,7 +99,7 @@ These notebooks feature:
 
 2. Choose your development environment:   
    - For local development: Start with `interactive_local_setup.ipynb`
-   - For Discovery Cluster: Follow `conda_environment_setup_part1.ipynb`
+   - For Explorer Cluster: Follow `conda_environment_setup_part1.ipynb`
 
 3. Follow the interactive tutorials:
    - Complete the environment setup
@@ -111,7 +111,7 @@ These notebooks feature:
 
 ## Additional Resources
 
-- [RC Discovery Cluster Documentation](https://rc.northeastern.edu)
+- [RC Explorer Cluster Documentation](https://rc.northeastern.edu)
 - [Conda Documentation](https://docs.conda.io/projects/conda/en/latest/)
 - [PyTorch Documentation](https://pytorch.org/docs/stable/)
 - [Weights and Biases Documentation](https://docs.wandb.ai/)
